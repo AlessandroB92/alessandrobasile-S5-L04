@@ -43,6 +43,7 @@ main {
     top: -81px;
     left: 291px;
     opacity: 0;
+    width: 100%;
 }
 
 .parole i:nth-child(1) {
