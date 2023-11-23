@@ -1,0 +1,68 @@
+body{
+    background-color: #666666;
+    font-family: 'Indie Flower', cursive;
+}
+h1{
+    font-weight: 900;
+    font-size: xx-large;
+    margin: 1em;
+}
+p{
+    font-size: large;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px
+}
+#container div{
+width: 230px;
+height: 180px;
+margin: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+-webkit-box-shadow: 5px 5px 10px 8px rgba(0,0,0,0.3); 
+box-shadow: 5px 5px 10px 8px rgba(0,0,0,0.3);
+}
+
+#container div:nth-child(1){
+    background: linear-gradient(180deg, rgba(250,251,201,1) 0%, rgba(250,251,201,1) 80%, rgba(168,168,167,1) 100%);
+    transform: rotate(-5deg);
+}
+#container div:nth-child(2){
+    background: linear-gradient(180deg, rgba(200,248,202,1) 0%, rgba(200,248,202,1) 80%, rgba(168,168,167,1) 100%);
+    transform: rotate(4deg);
+}
+#container div:nth-child(3){
+    background: linear-gradient(180deg, rgba(194,195,236,1) 0%, rgba(194,195,236,1) 80%, rgba(168,168,167,1) 100%);
+    transform: rotate(-7deg);
+}
+#container div:nth-child(4){
+    background: linear-gradient(180deg, rgba(200,248,202,1) 0%, rgba(200,248,202,1) 80%, rgba(168,168,167,1) 100%);
+    transform: rotate(8deg);
+}
+#container div:nth-child(5){
+    background: linear-gradient(180deg, rgba(250,251,201,1) 0%, rgba(250,251,201,1) 80%, rgba(168,168,167,1) 100%);
+    transform: rotate(-5deg);
+}
+#container div:nth-child(6){
+    background: linear-gradient(180deg, rgba(194,195,236,1) 0%, rgba(194,195,236,1) 80%, rgba(168,168,167,1) 100%);
+    transform: rotate(-7deg);
+}
+#container div:nth-child(7){
+    background: linear-gradient(180deg, rgba(250,251,201,1) 0%, rgba(250,251,201,1) 80%, rgba(168,168,167,1) 100%);
+    transform: rotate(-5deg);
+}
+#container div:nth-child(8){
+    background: linear-gradient(180deg, rgba(200,248,202,1) 0%, rgba(200,248,202,1) 80%, rgba(168,168,167,1) 100%);
+    transform: rotate(4deg);
+}
+#container div:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
